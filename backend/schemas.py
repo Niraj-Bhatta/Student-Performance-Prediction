@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 
 class StudentPredictionInput(BaseModel):
-    hours_studies: float = Field(ge=0, le=24)
+    hours_studied: float = Field(ge=0, le=24)
     attendance : float = Field(ge=0,le=100)
     previous_score : float =Field(ge=0,le=100)
 

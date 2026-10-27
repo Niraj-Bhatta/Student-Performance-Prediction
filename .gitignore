@@ -3,4 +3,5 @@
 backend/.venv/
 __pycache__/
 *.py[cod]
+node_modules/
 "@ | Add-Content .gitignore
